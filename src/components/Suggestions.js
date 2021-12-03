@@ -1,7 +1,6 @@
 import "../styles/suggestions.scss";
-import Profile from "./Profile";
 
-function Suggestions() {
+function Suggestions() {  
   return (
     <>
       <div className="suggestions">
@@ -10,41 +9,7 @@ function Suggestions() {
           <a href="/">See All</a>
         </div>
 
-        <Profile
-          caption="Followed by mapvault + 3 More"
-          urlText="Follow"
-          iconSize="medium"
-          captionSize="small"
-          storyBorder={true}
-        />
-        <Profile
-          caption="Followed by mapvault + 3 More"
-          urlText="Follow"
-          iconSize="medium"
-          captionSize="small"
-          storyBorder={true}
-        />
-        <Profile
-          caption="Followed by mapvault + 3 More"
-          urlText="Follow"
-          iconSize="medium"
-          captionSize="small"
-          storyBorder={true}
-        />
-        <Profile
-          caption="Followed by mapvault + 3 More"
-          urlText="Follow"
-          iconSize="medium"
-          captionSize="small"
-          storyBorder={true}
-        />
-        <Profile
-          caption="Followed by mapvault + 3 More"
-          urlText="Follow"
-          iconSize="medium"
-          captionSize="small"
-          storyBorder={true}
-        />
+       
       </div>
     </>
   );
