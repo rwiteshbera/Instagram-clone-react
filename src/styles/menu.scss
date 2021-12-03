@@ -1,0 +1,17 @@
+@import "./properties.scss";
+
+.menu {
+    display: flex;
+    padding: 0.1em;
+
+    .icon {
+        margin-right: 1em;
+        width: 23px;
+        height: 23px;
+        
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
