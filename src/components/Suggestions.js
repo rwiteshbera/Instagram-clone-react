@@ -1,4 +1,5 @@
 import "../styles/suggestions.scss";
+import Profile from "./Profile";
 
 function Suggestions() {  
   return (
@@ -11,6 +12,40 @@ function Suggestions() {
 
        
       </div>
+      <Profile
+        caption="Followed by mapvault + 3 more"
+        urlText="Follow"
+        iconSize="medium"
+        captionSize="small"
+        storyBorder={true}
+      />
+      <div>
+      <Profile
+        caption="Followed by dadatlacak + 1 more"
+        urlText="Follow"
+        iconSize="medium"
+        captionSize="small"
+      />
+      <Profile
+        caption="Follows you"
+        urlText="Follow"
+        iconSize="medium"
+        captionSize="small"
+      />
+      <Profile
+        caption="Followed by dadatlacak + 7 more"
+        urlText="Follow"
+        iconSize="medium"
+        captionSize="small"
+        storyBorder={true}
+      />
+      <Profile
+        caption="Followed by mapvault + 4 more"
+        urlText="Follow"
+        iconSize="medium"
+        captionSize="small"
+      />
+    </div>
     </>
   );
 }
